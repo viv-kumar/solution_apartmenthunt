@@ -1,0 +1,31 @@
+The function (apartmentHunting) loops through each block and finds the maximum distance to any of the required buildings for each block. It then returns the index of the block with the minimum maximum distance
+The function (distance) finds the distance from the given start index(ith index) to the nearest block containing the given required building, by searching both to the left and to the right. It returns the larger of the two distances.
+blocks = [
+  {
+    gym: false,
+    school: true,
+    store: false,
+  },
+  {
+    gym: true,
+    school: false,
+    store: false,
+  },
+  {
+    gym: true,
+    school: true,
+    store: false,
+  },
+  {
+    gym: false,
+    school: true,
+    store: false,
+  },
+  {
+    gym: false,
+    school: true,
+    store: true,
+  },
+];
+reqs = ["gym", "school", "store"];
+For this test case we are getting index 3 ans most optimal index and this is also answer we are getting in putting this input in the defined function.
